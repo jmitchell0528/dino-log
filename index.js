@@ -6,7 +6,7 @@ const port = 3000;
 const app = express();
 
 /**
-* Application level middleware
+* Application level middleware and custom middleware
 */
 app.use(bodyParser.json());
 
